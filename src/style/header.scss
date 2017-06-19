@@ -1,0 +1,61 @@
+.topmenu{
+	@extend .page-wrapper;
+	display: flex;
+	justify-content: space-between;
+	&_sections{
+		display: flex;
+	}
+	&_section{
+		@extend .menu-item;
+	}
+	&_selects{
+		display: flex;
+	}
+	&_select{
+		@extend .menu-item;
+	}
+}
+.btmenu{
+	border-bottom: 2px solid $grey-line;
+	border-top: 2px solid $grey-line;
+	&_container{
+		@extend .page-wrapper;
+		display: flex;
+		justify-content: space-between;
+	}
+	&_logo{
+		width: 94px;
+		height: 39px;
+	}
+	&_nav{
+		max-width: 572px;
+		width: 50%;
+		display: flex;
+		justify-content:space-between;
+	}
+	&_item{
+		@extend .menu-item;
+		&__active{
+			color: black;
+			border-bottom: 3px solid $blue;
+		}
+		&__hot{
+			color: $red;
+		}
+	}
+	&_tools{
+		display:flex;
+		justify-content:flex-end;
+	}
+	&_bag{
+		height: 48px;
+		width: 48px;
+		border-radius: 50%;
+		border: 2px solid $blue
+	}
+	&_find{
+		height: 14px;
+		width: 14px;
+		background-image: url(../img/find.png);
+	}
+}

@@ -2,9 +2,16 @@
 //------Variables--------------
 //-----------------------------
 
+//width&height
+$page-width: 1150px;
+
 //color-variables
+$grey: #b4b4b4;
+$grey-line: #ededed;
+$blue: #367ec1;
+$red: #fc411d;
 
 //adaptive
 //for media queries
-$phone: "screen and (min-device-width: 360px) and (max-device-width: 889px)";
+$phone: "screen and (min-device-width: 320px) and (max-device-width: 889px)";
 $pc: "screen and (min-device-width: 890px)";

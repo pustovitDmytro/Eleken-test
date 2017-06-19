@@ -16,8 +16,25 @@ a{
 	text-decoration: none;
 	cursor: pointer;
 }
-
+li{
+	list-style-type: none;
+}
+button{
+	background-color: inherit;
+	cursor: pointer;
+}
 //my custom general styles
 body{
-	font: 15px/1.15 arial, sans-serif;
+	font: 15px/1.25 'Playfair Display', serif;
+}
+
+.page-wrapper{
+	margin: 0 auto;
+	max-width: $page-width
+
+}
+.menu-item{
+	font: bold 11px 'Lato', sans-serif;
+	color: $grey;
+	cursor: pointer;
 }

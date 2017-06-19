@@ -1,0 +1,42 @@
+.catalog{
+@extend .page-wrapper;
+display: flex;
+flex-direction:column;
+align-items:center;
+&_title{
+	color: #333333;
+	font-size:58px;
+	line-height: 1.81px;
+}
+&_menu{
+	display:flex;
+	width:60%;
+	justify-content:space-around;
+}
+&_list{
+	@extend .menu-item;
+	&__active{
+		color: black;
+		border-bottom: 3px solid $blue;
+	}
+}
+&_container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+}
+.product{
+	text-align: center;
+	&_prize{
+		@extend .menu-item;
+		&__hot{
+			color:$red;
+		}
+		&__old{
+			text-decoration: line-through;
+		}
+	}
+}

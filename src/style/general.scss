@@ -23,9 +23,11 @@ button{
 	background-color: inherit;
 	cursor: pointer;
 }
+
 //my custom general styles
 body{
 	font: 15px/1.25 'Playfair Display', serif;
+	color:  $black;
 }
 
 .page-wrapper{
@@ -35,6 +37,6 @@ body{
 }
 .menu-item{
 	font: bold 11px 'Lato', sans-serif;
-	color: $grey;
+	color:$grey;
 	cursor: pointer;
 }

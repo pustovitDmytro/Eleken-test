@@ -1,0 +1,17 @@
+.subscribe{
+	height: 287px;
+	background-image: url(../img/blue.jpg);
+	text-align: center;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	&_name{
+		font-family: Lato;
+		color: #333333;
+		font-size: 12px;
+	}
+	&_title{
+		color: white;
+		font-size: 38px;
+	}
+}

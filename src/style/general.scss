@@ -27,6 +27,7 @@ button{
 //my custom general styles
 body{
 	font: 15px/1.25 'Playfair Display', serif;
+	letter-spacing: 1px;
 	color:  $black;
 }
 
@@ -39,4 +40,5 @@ body{
 	font: bold 11px 'Lato', sans-serif;
 	color:$grey;
 	cursor: pointer;
+	letter-spacing: 2px;
 }

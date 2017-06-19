@@ -2,8 +2,12 @@
 	@extend .page-wrapper;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	height: 42px;
 	&_sections{
 		display: flex;
+		justify-content: space-between;
+    	width: 16%;
 	}
 	&_section{
 		@extend .menu-item;
@@ -18,10 +22,13 @@
 .btmenu{
 	border-bottom: 2px solid $grey-line;
 	border-top: 2px solid $grey-line;
+	
 	&_container{
 		@extend .page-wrapper;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+		height: 103px;
 	}
 	&_logo{
 		width: 94px;
@@ -32,6 +39,8 @@
 		width: 50%;
 		display: flex;
 		justify-content:space-between;
+		margin-left: 70px;
+
 	}
 	&_item{
 		@extend .menu-item;
@@ -46,16 +55,19 @@
 	&_tools{
 		display:flex;
 		justify-content:flex-end;
+		align-items: center;
 	}
 	&_bag{
 		height: 48px;
 		width: 48px;
 		border-radius: 50%;
 		border: 2px solid $blue
+		margin-left: 16px;
 	}
 	&_find{
 		height: 14px;
 		width: 14px;
 		background-image: url(../img/find.png);
+		margin-left: 20px;
 	}
 }
